@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<body>
+<%#<link href="public/css/bootstrap.css" rel="stylesheet">
+	<link href="public/css/bootstrap-theme.css" rel="stylesheet">%>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- siimple style -->
+    <link href="public/css/style.css" rel="stylesheet">
+<center>
+<%#<body background="main-bg.jpeg">%>
+
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<input type="hidden" name = "full_name" value = "<%= full_name %>">
+<input type="hidden" name = "student_id" value = "<%= student_id %>">
+<input type="hidden" name = "questions_answers" value = "<%= questions_answers %>">
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Biogamecrafter</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <script src="TemplateData/UnityProgress.js"></script>
+  </head>
+  <body class="template">
+    <p class="header"><span>Unity WebGL Player | </span>Biogamecrafter</p>
+    <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+      <br>
+      <div class="logo"></div>
+      <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+      <div class="title">Biogamecrafter</div>
+      <center><button type="submit1" class="continue_button" onClick="parent.location='post_test'">End Game and Take Post-Test</button></center>
+    </div>
+    <center> 
+
+    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+    <script type='text/javascript'>
+
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release/v0.1_Alpha.data",
+    codeUrl: "Release/v0.1_Alpha.js",
+    memUrl: "Release/v0.1_Alpha.mem",
+  };
+</script>
+
+<script src="Release/UnityLoader.js"></script>
+  </body>
+</html>

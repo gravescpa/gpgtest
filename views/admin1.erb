@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Biogamecrafter</title>
+    <link href="public/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+  
+<!-- body background="main-bg.jpg" -->
+    <!-- Fixed navbar -->
+
+	<div id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<center><h1>Biogamecrafter Administrative Page</h1>
+					</center>		
+				</div>  
+    <div id="heading-breadcrumbs">
+            
+    </div>
+    <h6>
+    <hr>
+
+        <p><h2><b><center>Click below to export data</b></h></p>
+        <div class="button-container">
+            <form method = "post" action = "/pretest_export">
+                  <button type="submit1" class="continue_button" <i class="fa fa-user-md"></i> Pre-Test Export </button></form>
+                                
+            <form method = "post" action = "/posttest_export">
+                  <button type="submit1" class="continue_button" <i class="fa fa-user-md"></i> Post-Test Export </button></form>
+
+            <form method = "post" action = "/compare_results">
+                  <button type="submit1" class="continue_button" <i class="fa fa-user-md"></i> Compare Pre/Post Tests </button></form>
+        </div>
+        <br>
+        
+        <p><h2><b><center>Question Selection</b></h></p>
+        <h6><p>The following is a list of questions available to be on the tests. <br>Click to activate questions you wish to be on the tests.</p>
+        <input type="hidden" name = "full_name" value = "<%= full_name %>">
+        <input type="hidden" name = "student_id" value = "<%= student_id %>">
+        <div align = "left">
+        
+        <form method = "post" action = "/admin1">
+        <%#this is looking at what is coming in, not what the form is switched to%>
+        <% question = ""%>
+        <% active = [] %>
+        <% count = 1%>
+        <% admin_questions.each do |admin_questions| %>
+            <% if question != admin_questions['question_text']%>
+                  <% if admin_questions['active'] == 't' %>
+                        <input type="checkbox" name="active[]" value="t" checked="checked">
+                        <input type="checkbox" name="active[]" value="f">
+                        <label class="switch">
+                        <input type="checkbox" name= "active[]" value="t" checked><div class="slider"></div></label>
+                  <% else %>
+                        <input type="checkbox" name="active[]" value="t">
+                        <label class="switch">
+                        <input type="checkbox" name= "active[]" value="f" checked><div class="slider"></div></label>a
+                        <input type="checkbox" name="active[]" value="f" checked="checked">
+                  <% end %>
+            <%=admin_questions['question_id']%>. <%= admin_questions['question_text']%><br>
+            <%end%>
+            <% count += 1%>
+            <br>
+        <% end %>
+                  <center>
+                  <button type="submit" class="continue_button" <i class="fa fa-user-md"></i> Submit Changes</button></center></form>
+            
+        </form>
+<input type="hidden" name = "admin_questions" value = "<%= admin_questions %>">
+      
+        
+</h6>

@@ -1,0 +1,9 @@
+Questions:
+
+1. Username - do you want to use email or an identifying number such as student ID number? Or have students make up a user name.
+2. Password - simple or complicated?
+3. Do I have to integrate this using javascript, because using html seems way less complicated?
+4. Google makes it more complicated than facebbok. (not a question just an observation)
+5. Should I break my computer using a hammer, or a torch?
+6. Should the login screen be separate from the 'register new user' screen?
+7. Should we do an edit profile screen? In case of users who change passwords or emails.

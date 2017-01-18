@@ -1,0 +1,43 @@
+users
+    student_id - primary key
+    full_name
+    teacher
+    grade
+
+questions
+    question_id - primary key
+    question_text
+    image
+    active
+
+answers
+    answer_id - primary key
+    answer_text
+    question_id - foreign key
+
+pretest
+    pretest_id - primary key
+    student_id - foreign key
+    question_id - foreign key
+    test_date
+    answer_id - foreign key
+    pre_test_text
+
+posttest
+    posttest_id - primary key
+    student_id - foreign key
+    question_id - foreign key
+    test_date
+    answer_id - foreign key
+    post_test_text
+
+student_results
+    results_id - primary key
+    student_id - foreign key
+    question_id - foreign key
+    pre_answer_id - foreign key
+    post_answer_id - foreign key
+    pre_test_text
+    post_test_text
+    test_date
+

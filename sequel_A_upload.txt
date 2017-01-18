@@ -1,0 +1,1270 @@
+INSERT INTO public.answers (question_id, answer_text, answer_id) VALUES
+
+(16,'processing sunlight.',61),
+(16,'absorbing nutrients.',62),
+(16,'growing.',63),
+(16,'dividing.',64),
+(17,'They get energy from living organisms.',65),
+(17,'They turn decaying matter into nutrients.',66),
+(17,'They provide food for other organisms.',67),
+(17,'They absorb oxygen from the environment.',68),
+(18,'Earth gives light and heat energy to the Sun.',69),
+(18,'Earth gives only heat energy to the Sun.',70),
+(18,'The Sun gives light and heat energy to Earth.',71),
+(18,'The Sun gives only light energy to Earth.',72),
+(19,'The squirrel population would increase.',73),
+(19,'The hawk population would decrease.',74),
+(19,'The fox population would decrease.',75),
+(19,'The tree population would increase.',76),
+(20,'grass',77),
+(20,'caribou',78),
+(20,'polar bear',79),
+(20,'Arctic hare',80),
+(21,'ability to use energy',81),
+(21,'ability to absorb nutrients',82),
+(21,'ability to divide into two cells',83),
+(21,'ability to convert sunlight into energy',84),
+(22,'Grass → Grasshopper → Sun',85),
+(22,'Grasshopper → Grass → Sun',86),
+(22,'Sun → Grass → Grasshopper',87),
+(22,'Sun → Grasshopper → Grass',88),
+(23,'oxygen',89),
+(23,'sugar',90),
+(23,'sunlight',91),
+(23,'water',92),
+(24,'Decomposer → Consumer → Producer',93),
+(24,'Producer → Consumer → Decomposer',94),
+(24,'Consumer → Producer → Decomposer',95),
+(24,'Producer → Decomposer → Consumer',96),
+(25,'It provides the Arctic fox with an alternate food source.',97),
+(25,'It allows other animals to prey on the small mammals.',98),
+(25,'It sharpens the hunting skills of the Arctic fox.',99),
+(25,'It scares away the predators of polar bears.',100),
+(26,'a drop in temperature',101),
+(26,'the beginning of sunset',102),
+(26,'a shortage of food',103),
+(26,'a nearby predator',104),
+(27,'from the grass to the Sun',105),
+(27,'from the owl to the mouse',106),
+(27,'from the mouse to the grass',107),
+(27,'from grass to the mouse',108),
+(28,'herbivore.',109),
+(28,'producer.',110),
+(28,'competitor.',111),
+(28,'decomposer.',112),
+(29,'fox',113),
+(29,'rabbit',114),
+(29,'grasshopper',115),
+(29,'grass',116),
+(30,'q30a.jpg',117),
+(30,'q30b.jpg',118),
+(30,'q30c.jpg',119),
+(30,'q30d.jpg',120),
+(31,'deer',121),
+(31,'fungus',122),
+(31,'grass',123),
+(31,'hawk',124),
+(32,'Identify the organism that depends directly on the Sun to make food.',125),
+(32,'Name the organism that can be described as a herbivore.',126),
+(32,'Explain the role of a decomposer in a food web.',127),
+(32,'Identify the decomposer in this food web.',128),
+(33,'the producers',129),
+(33,'the decomposers',130),
+(33,'the primary consumers',131),
+(33,'the secondary consumers',132),
+(34,'air',133),
+(34,'rainwater',134),
+(34,'soil',135),
+(34,'sunlight',136),
+(35,'carbon dioxide',137),
+(35,'chlorophyll',138),
+(35,'energy',139),
+(35,'oxygen',140),
+(36,'oxygen',141),
+(36,'carbon dioxide',142),
+(36,'nitrogen',143),
+(36,'water vapor',144),
+(37,'Which part of the model represents plants in an ecosystem? Why?',145),
+(37,'Which part of the model represents animals in an ecosystem? Why?',146),
+(38,'summer, because there is more sunlight',147),
+(38,'summer, because there is more heat',148),
+(38,'spring, because there is more rain',149),
+(38,'spring, because there are more leaves',150),
+(39,'Crow',151),
+(39,'Fox',152),
+(39,'Frog',153),
+(39,'Grasshopper',154),
+(40,'oxygen',155),
+(40,'sunlight',156),
+(40,'shade',157),
+(40,'rocks',158),
+(41,'grasses and trees',159),
+(41,'rabbits and deer',160),
+(41,'lions and alligators',161),
+(41,'mushrooms and bacteria',162),
+(42,'grass to the lizard.',163),
+(42,'insect to the hawk.',164),
+(42,'lizard to the hawk.',165),
+(42,'hawk to the grass.',166),
+(43,'trout',167),
+(43,'frogs',168),
+(43,'birds',169),
+(43,'snails',170),
+(44,'rain',171),
+(44,'soil',172),
+(44,'sunlight',173),
+(44,'wind',174),
+(45,'minerals',175),
+(45,'oxygen',176),
+(45,'heat',177),
+(45,'water',178),
+(46,'a tick feeding on a deer',179),
+(46,'a lion hunting a zebra',180),
+(46,'a dandelion growing in a grass lawn',181),
+(46,'a dolphin communicating with another dolphin',182),
+(47,'It impacts the entire chain.',183),
+(47,'It only impacts the next step in the chain.',184),
+(47,'It impacts only the next two steps in the chain.',185),
+(47,'It will have little effect, as other producers take its place.',186),
+(48,'precipitation',187),
+(48,'condensation',188),
+(48,'photosynthesis'189,),
+(48,'metamorphosis',190),
+(49,'Leaves → Caterpillar → Bird',191),
+(49,'Tree → Bird → Caterpillar',192),
+(49,'Leaves → Tree → Caterpillar',193),
+(49,'Caterpillar → Leaves → Bird',194),
+(50,'The energy is cycled between organic and inorganic states within the food chain.',195),
+(50,'Energy is created and causes the food chain to have more links.',196),
+(50,'Energy is created and causes the food chain to have more links.',197),
+(50,'The energy is transferred between organisms within the food chain.',198),
+(51,'finches.',199),
+(51,'acorns.',200),
+(51,'berries.',201),
+(51,'voles.',202),
+(52,'Consumers can move. Producers cannot move.',203),
+(52,'Producers can move. Consumers cannot move.',204),
+(52,'Consumers make their own food. Producers cannot make their own food.',205),
+(52,'Producers make their own food. Consumers cannot make their own food.',206),
+(53,'carnivore',207),
+(53,'decomposer',208),
+(53,'herbivore',209),
+(53,'producer',210),
+(54,'eat plants.',211),
+(54,'live in plants.',212),
+(54,'jump on the leaves.',213),
+(54,'get water from plants.',214),
+(55,'a source of energy for consumers.',215),
+(55,'a predator of other living things.',216),
+(55,'a decomposer of dead matter.',217),
+(55,'a shelter for other organisms.',218),
+(56,'The butterfly receives energy directly from the Sun.',219),
+(56,'The energy from the butterfly flows directly to the plant.',220),
+(56,'The energy from the Sun flows from the frog to the butterfly.',221),
+(56,'The frog receives the energy from the plant through the butterfly.',222),
+(57,'producers',223),
+(57,'consumers',224),
+(57,'scavengers',225),
+(57,'decomposers',226),
+(58,'carbon and oxygen.',227),
+(58,'sugar and hydrogen.',228),
+(58,'sugar and oxygen.',229),
+(58,'nitrogen and carbon.',230),
+(59,'Carnivore → Producer → Herbivore',231),
+(59,'Producer → Herbivore → Carnivore',232),
+(59,'Herbivore → Producer → Carnivore',233),
+(59,'Herbivore → Producer → Carnivore',234),
+(60,'They make the soil clean.',235),
+(60,'They keep disease out of the soil.',236),
+(60,'They recycle nutrients into the soil.',237),
+(60,'They remove extra water from the soil.',238),
+(61,'Sunlight provides the energy for food production.',239),
+(61,'Heat from the Sun is used during reproduction.',240),
+(61,'Sunlight provides minerals the plant needs for growth.',241),
+(61,'Pollinators need sunlight to reach the flowers.',242),
+(62,'Only plant cells can grow.',243),
+(62,'Only animal cells can reproduce.',244),
+(62,'Only animal cells can store energy.',245),
+(62,'Only plant cells can perform photosynthesis.',246),
+(63,'Plants keep water in their roots.',247),
+(63,'Plants release nitrogen into the soil.',248),
+(63,'Plants provide shelter from the weather.',249),
+(63,'Plants make sugar in the presence of light.',250),
+(64,'Plants make sugar in the presence of light.',251),
+(64,'Plants take in sugar and release minerals.',252),
+(64,'Plants take in minerals and release carbon dioxide.',253),
+(64,'Plants take in carbon dioxide and release oxygen.',254),
+(65,'human → corn → cow',255),
+(65,'corn → human → cow',256),
+(65,'corn → cow → human',257),
+(65,'cow → human → corn',258),
+(66,'tree',259),
+(66,'beetle',260),
+(66,'mouse',261),
+(66,'caterpillar',262),
+(67,'sand',263),
+(67,'oxygen',264),
+(67,'the Sun',265),
+(67,'the ocean',266),
+(68,'carbon dioxide',267),
+(68,'oxygen',268),
+(68,'salt',269),
+(68,'sugar',270),
+(69,'q69a.jpg',271),
+(69,'q69b.jpg',272),
+(69,'q69c.jpg',273),
+(69,'q69d.jpg',274),
+(70,'The Sun turned diatoms into oil after 1020 years.',275),
+(70,'Diatoms are the original source of energy for oil.',276),
+(70,'The Sun is the original source of energy for oil.',277),
+        (70,'Diatoms converted oil into energy.',278),
+(100,'oxygen',),
+(100,'nitrogen',),
+(100,'hydrogen',),
+(100,'carbon dioxide',),
+(101,'water',),
+(101,'oxygen',),
+(101,'protein',),
+(101,'sugar',),
+(102,'Oil and food both store energy that comes from lightning.',),
+(102,'Oil and food are both made when water changes phases.',),
+(102,'Oil and food both store energy that comes from the Sun.',),
+(102,'Oil and food are both formed from remains of plants.',),
+(103,'grasshopper, frog, snake, hawk',),
+(103,'hawk, snake, grasshopper, frog',),
+(103,'snake, grasshopper, frog, hawk',),
+(103,'frog, grasshopper, hawk, snake',),
+(104,'Fish → Plants → Birds',),
+(104,'Plants → Birds → Fish',),
+(104,'Plants → Fish → Birds',),
+(104,'Fish → Birds → Pants',)
+(105,'',),
+(105,'',),
+(105,'',),
+(105,'',),
+(106,'secondary consumers',),
+(106,'primary consumers',),
+(106,'decomposers',),
+(106,'producers',),
+(107,'hawk',),
+(107,'mink',),
+(107,'fish',),
+(107,'snail',),
+(108,'provide energy for consumers.',),
+(108,'depend on other organisms for shelter.',),
+(108,'break down dead animal matter.',),
+(108,'consume nutrients for energy.',),
+(109,'elk and owl',),
+(109,'snake and elk',),
+(109,'owl and hawk',),
+(109,'hawk and grass',),
+(110,'sand',),
+(110,'producers',),
+(110,'salt water',),
+(110,'sea shells',),
+(111,'They absorb minerals from soil',),
+(111,'They produce their own energy',),
+(111,'They recycle waste in their habitat',),
+(111,'They are parasites on other organisms',),
+(112,'The dog and tapeworm both become ill.',),
+(112,'The dog becomes ill, and the tapeworm benefits.',),
+(112,'The tapeworm and dog help each other survive.',),
+(112,'The tapeworm helps the dog survive.',),
+(113,'rabbit and frog',),
+(113,'frog and insect',),
+(113,'insect and owl',),
+(113,'owl and hawk',),
+(114,'genes',),
+(114,'sunlight',),
+(114,'nutrients',),
+(114,'chromosomes',),
+(115,'air',),
+(115,'attention',),
+(115,'food',),
+(115,'shelter',),
+(116,'Deer',),
+(116,'Grasses',),
+(116,'Hawk',),
+(116,'Wolf',),
+(117,'predator­prey',),
+(117,'parasitic.',),
+(117,'mutualistic.',),
+(117,'commensalistic.',),
+(118,'cold.',),
+(118,deep.'',),
+(118,'shallow.',),
+(118,'nutrient­rich.',),
+(119,'They both need energy to survive.',),
+(119,'They both consume other organisms.',),
+(119,'They both absorb water from the ground.',),
+(119,'They both produce their own food from sunlight.',),
+(120,'decomposers',),
+(120,'predators',),
+(120,'producers',),
+(120,'scavengers',),
+(121,'speeding up the process of decay.',),
+(121,'taking nonliving matter from the environment.',),
+(121,'slowing the spread of disease.',),
+(121,'helping to distribute seeds.',),
+(122,'sunfish',),
+(122,'bullfrog',),
+(122,'water lily',),
+(122,'wood duck',),
+(123,'an eagle',),
+(123,'a fox',),
+(123,'the grass',),
+(123,'an owl',),
+(124,'from leaves decaying in the soil',),
+(124,'from sunlight heating up the soil',),
+(124,'from wind blowing through the soil',),
+(124,'from insects crawling on top of the soil',),
+(125,'the wolves',),
+(125,'the weasels',),
+(125,'the beetles',),
+(125,'the trees',),
+(126,'omnivore.',),
+(126,'herbivore.',),
+(126,'producer.',),
+(126,'scavenger.',),
+(127,'frogs and insects',),
+(127,'hawks and coyotes',),
+(127,'frogs and white­tailed deer',),
+(127,'white­tailed deer and coyotes',),
+(128,'herring',),
+(128,'phytoplankton',),
+(128,'polar bear',),
+(128,'seal',),
+(129,'Hawk and Snake',),
+(129,'Cricket and Frog',),
+(129,'Snake and Cricket',),
+(129,'Shrew and Grasshopper',),
+(130,'The leaves provide shelter to growing seeds.',),
+(130,'The decay of the leaves provides nutrients to other plants.',),
+(130,'The leaves release chlorophyll into the grass as they decay.',),
+(130,'The leaves prevent fungus from growing at the base of the tree.',),
+(131,'decomposers.',),
+(131,'herbivores.',),
+(131,'omnivores.',),
+(131,'prey.',),
+(132,'',),
+(132,'',),
+(132,'',),
+(132,'',),
+(133,'consumers',),
+(133,'decomposers',),
+(133,'predators',),
+(133,'prey',),
+(134,'producers.',),
+(134,'consumers.',),
+(134,'herbivores.',),
+(134,'decomposers.',),
+(135,'',),
+(135,'',),
+(135,'',),
+(135,'',),
+(136,'sunlight, oxygen, and carbon dioxide',),
+(136,'sunlight, water, and carbon dioxide',),
+(136,'water, oxygen, and carbon dioxide',),
+(136,'water, oxygen, and sunlight',),
+(137,'heat energy',),
+(137,'sunlight energy',),
+(137,'energy from producers',),
+(137,'energy from consumers',),
+(138,'a long mane',),
+(138,'a steel shoe',),
+(138,'a missing tooth',),
+(138,'a bruised leg',),
+(139,'phytoplankton',),
+(139,'baleen whale',),
+(139,'krill',),
+(139,'cod',),
+(140,'apple',)
+<<<<<<< HEAD
+(140,'housefly',)
+(140,'frog',)
+(140,'hawk',)
+(141,'',)
+(141,'',)
+(141,'',)
+(141,'',)
+(142,'producer',)
+(142,'herbivore',)
+(142,'carnivore',)
+(142,'omnivore',)
+(143,'',)
+(143,'',)
+(143,'',)
+(143,'',)
+(144,'fish',)
+(144,'light',)
+(144,'rocks',)
+(144,'water',)
+(145,'leaves',)
+(145,'moisture',)
+(145,'vegetables',)
+(145,'microorganisms',)
+(146,'',)
+(146,'',)
+(146,'',)
+(146,'',)
+(147,'a hawk eating a mouse',)
+(147,'worms tunneling through soil',)
+(147,'bacteria feeding on dead plants',)
+(147,'a plant using nitrogen to make proteins',)
+(148,'fertilizer.',)
+(148,'light.',)
+(148,'nutrients.',)
+(148,'water.',)
+(149,'the grasshoppers do not have enough to eat.',)
+(149,'the snakes stop eating the grasshoppers.',)
+(149,'the number of birds increase.',)
+(149,'the birds stop eating the spiders.',)
+(150,'the soil',)
+(150,'the deer',)
+(150,'the trees',)
+(150,'the fungi',)
+(151,'starfish',)
+(151,'seaweed',)
+(151,'salt water',)
+(151,'coral reef',)
+(152,'grasshopper, snail, smelt',)
+(152,'mouse, sparrow, duck',)
+(152,'heron, hawk, shrew',)
+(152,'smelt, sparrow, shrew',)
+(153,' Do algae consume other organisms?',)
+(153,'Which organisms consume algae?',)
+(153,'Do algae use sunlight to make food?',)
+(153,'Could an ecosystem survive without algae?',)
+(154,'carbon dioxide',)
+(154,'hydrogen',)
+(154,'nitrogen',)
+(154,'oxygen',)
+(155,'wheat',)
+(155,'mouse',)
+(155,'snake',)
+(155,'owl',)
+(156,'The horned owl population will consume more field mice',)
+(156,'Horned owls will follow the field mice to a different area',)
+(156,'The horned owl population will increase in the area',)
+(156,'Horned owls will change to a plant­based diet',)
+(157,'carbon dioxide',)
+(157,'hydrogen',)
+(157,'nitrogen',)
+(157,'oxygen',)
+(158,'meiosis',)
+(158,'mitosis',)
+(158,'reproduction',)
+(158,'photosynthesis',)
+(159,'consumer to producer',)
+(159,'producer to consumer',)
+(159,'decomposer to producer',)
+(159,'decomposer to consumer',)
+(160,'A new species that eats frogs enters the ecosystem',)
+(160,'The population of small rodents in the ecosystem decreased',)
+(160,'The kinds of insects that salamanders eat increase in number',)
+(160,'A kind of animal that eats the snake species increases in number',)
+(161,'Hurricanes cause the mixing of salt and fresh water',)
+(161,'Hurricanes flush out the marshes and estuaries of coastal ecosystems',)
+(161,'Hurricanes break apart coral reefs which start up additional colonies',)
+(161,'Hurricanes cause the cycles of succession to start again in an ecosystem',)
+(162,'carnivore',)
+(162,'herbivore',)
+(162,'omnivore',)
+(162,'decomposer',)
+(163,'heat',)
+(163,'oxygen',)
+(163,'protein',)
+(163,'water',)
+(164,'growth of bacteria',)
+(164,'release of energy',)
+(164,'activity of enzymes',)
+(164,'production of oxygen',)
+(165,'dragonfly',)
+(165,'trout',)
+(165,'water',)
+(165,'frog',)
+(166,'a decrease in the availability of food',)
+(166,'a decrease in populations of predators',)
+(166,'an increase in suitable nesting locations',)
+(166,'an increase in places to hide from danger',)
+(167,'reduces the risk of fire',)
+(167,'decreases erosion problems',)
+(167,'increases the risk of drought',)
+(167,'removes available nutrients',)
+(168,'Most of the plants in marshes and swamps are trees',)
+(168,'Most of the plants in marshes and swamps are grasses',)
+(168,'Most of the plants in marshes are trees. Most of the plants in swamps are grasses',)
+(168,'Most of the plants in marshes are grasses. Most of the plants in swamps are trees',)
+(169,'oceanic zone',)
+(169,'benthic zone',)
+(169,'neritic zone',)
+(169,'intertidal zone',)
+(170,'More predators were introduced into the lake',)
+(170,'Water was depleted of nutrients such as nitrogen',)
+(170,'Breeding season for the organisms came to an end',)
+(170,'Decomposing algae lowered the amount of dissolved oxygen',)
+(171,'The prey will decrease in numbers',)
+(171,'The predator will increase in numbers',)
+(171,'The prey will be unaffected',)
+(171,'The predator will be unaffected',)
+(172,'tundra',)
+(172,'taiga',)
+(172,'grassland',)
+(172,'desert',)
+(173,'increase in the reproduction rate',)
+(173,'decrease in the number of alligator deaths',)
+(173,'increase in aggression between individuals',)
+(173,'decrease in the number of alligators migrating',)
+(174,'salinity',)
+(174,'sunlight',)
+(174,'wave action',)
+(174,'precipitation',)
+(175,'desert',)
+(175,'forest',)
+(175,'grassland',)
+(175,'tundra',)
+(176,'Birds will compete for water.',)
+(176,'Amphibious snakes will compete for space.',)
+(176,'Flying insects will have to find new sources of food.',)
+(176,'Ground­dwelling rodents will have to find new shelter',)
+(177,'Fungi → Bacteria → Salamanders → Guano',)
+(177,'Bats → Guano → Flatworms → Salamanders',)
+(177,'Salamanders → Fungi → Bacteria → Flatworms',)
+(177,'Guano → Bacteria → Flatworms → Salamanders',)
+(178,'',)
+(178,'',)
+(178,'',)
+(178,'',)
+(179,'mass extinction.',)
+(179,'global warming.',)
+(179,'gene dominance.',)
+(179,'natural selection.',)
+(180,'Plants convert light energy from the sun into the chemical energy necessary to make the sugars.',)
+(180,'Plants absorb heat energy from the sun and soil for the energy necessary to make the sugars.',)
+(180,'Plants absorb chemicals through their roots for the energy necessary to make the sugars.',)
+(180,'Plants convert mechanical energy into chemical energy to make the sugars.',)
+(181,'Abiotic factors can influence energy flow in an ecosystem.',)
+(181,'Biotic interactions control the movement of nutrients in the ocean.',)
+(181,'Abiotic parts of an environment make up parts of marine food webs.',)
+(181,'Biotic interactions are causing an increase in food sources for marine life.',)
+(182,'eating plants and seeds',)
+(182,'eating other animals',)
+(182,'breaking down organisms through decay',)
+(182,'using the sun to make food',)
+(183,'grasshopper.',)
+(183,'grass.',)
+(183,'fox.',)
+(183,'falcon.',)
+(184,'small shrubs',)
+(184,'mature oaks',)
+(184,'evergreens',)
+(184,'wildflowers',)
+(185,'photosynthesis',)
+(185,'regeneration',)
+(185,'respiration',)
+(185,'transpiration',)
+(186,'decrease the temperature of the factory water',)
+(186,'increase the temperature of the river water',)
+(186,'remove the vegetation from the river',)
+(186,'add more fish to the river',)
+(187,'oxygen',)
+(187,'carbon dioxide',)
+(187,'iron sulfide',)
+(187,'glucose',)
+(188,' When plants burn, their ashes become part of the soil.',)
+(188,'When plants burn, the temperature of an ecosystem is changed.',)
+(188,'The amount of rain will decrease because of the extra particles in the air.',)
+(188,'The amount of water increases because of the water brought in to fight the fire.',)
+(189,'return to their summer feeding area.',)
+(189,'hibernate until the snows have stopped.',)
+(189,'hunt for organisms such as small rodents.',)
+(189,'move to other areas to compete for resources.',)
+(190,'',)
+(190,'',)
+(190,'',)
+(190,'',)
+(191,'Upwelling replaces sand and gravel on beaches lost as the result of wave and tidal action.',)
+(191,'Upwelling decreases the temperature differences between different layers of ocean water.',)
+(191,'Upwelling cycles nutrients from decomposers along the ocean floor to producers in surface waters.',)
+(191,'Upwelling returns salt to the surface from the benthic zone as part of the global conveyor belt current.',)
+(192,'water freezing in cracks of rocks',)
+(192,'glaciers carving out a valley',)
+(192,'river water eroding the banks of a stream',)
+(192,'bacteria breaking down dead matter',)
+(193,'from the soil',)
+(193,'from the plants',)
+(193,'from the rocks',)
+(193,'from the water',)
+(194,'More energy is available after each transfer.',)
+(194,'Less energy is available to higher consumer levels.',)
+(194,'Energy transfer is greatest among primary consumers.',)
+(194,'Energy transfer to secondary consumers is greater than to primary consumers.',)
+(195,'in an estuary',)
+(195,'in an open ocean',)
+(195,'at an intertidal zone',)
+(195,'at a hydrothermal vent',)
+(196,'The fish population decreased.',)
+(196,'The wolf population increased.',)
+(196,'A natural predator suffered a disease',)
+(196,'A new predator was introduced.',)
+(197,'the lack of moisture',)
+(197,'the high levels of heat',)
+(197,'the extra amount of wind',)
+(197,'the low levels of sunlight',)
+(198,'Remaining giraffes will fight each other for food.',)
+(198,'Less food and energy will be available to lions.',)
+(198,'Lions will begin eating only trees and shrubs.',)
+(198,'Tree and shrub populations will decrease.',)
+(199,'bacteria',)
+(199,'producers',)
+(199,'primary consumers',)
+(199,'secondary consumers',)
+(200,'They break down dead organisms to return nutrients to the soil.',)
+(200,'They produce their own food for survival.',)
+(200,'They play a role in preventing weathering and erosion.',)
+(200,'They provide most of the energy to consumers.',)
+(201,'temperature',)
+(201,'available food',)
+(201,'relative humidity',)
+(201,'competition with other species',)
+(202,'Sunlight',)
+(202,'Grass',)
+(202,'Rabbit',)
+(202,'Snake',)
+(203,'producers.',)
+(203,'consumers.',)
+(203,'decomposers.',)
+(203,'scavengers.',)
+(204,'It is reabsorbed by the Sun.',)
+(204,'It is recycled by decomposers.',)
+(204,'It is stored in soil for later use.',)
+(204,'It is released into the ecosystem as heat.',)
+(205,'',)
+(205,'',)
+(205,'',)
+(205,'',)
+(206,'food bowl with fruit',)
+(206,'hot, bright lights',)
+(206,'cold­water pool',)
+(206,'tall palm trees',)
+(207,'The downstream side of the dam will increase in fertile sediments.',)
+(207,'The upstream side of the dam will flood and develop new habitats.',)
+(207,'There will be more erosion of the downstream banks of the river.',)
+(207,'There will be a decrease in aquatic life in the backside area of the dam.',)
+(208,'produced when plants grow.',)
+(208,'recycled when organisms die.',)
+(208,'lost when animals and plants die.',)
+(208,'formed when new animals are born.',)
+(209,'grow in size.',)
+(209,'produce less energy.',)
+(209,'divide repeatedly.',)
+(209,'generate more waste.',)
+(210,'prairie',)
+(210,'desert',)
+(210,'coniferous forest',)
+(210,'deciduous forest',)
+(211,'It uses structures like houses for protection.',)
+(211,'It makes the plant more resistant to disease.',)
+(211,'It reduces the competition for resources.',)
+(211,'It allows for new plant species to grow.',)
+(212,'soil, water, and oxygen',)
+(212,'oxygen, sunlight, and soil',)
+(212,'carbon dioxide, sunlight, and soil',)
+(212,'sunlight, water, and carbon dioxide',)
+(213,'growth and reproduction',)
+(213,'osmosis and diffusion',)
+(213,'decomposition and fermentation',)
+(213,'photosynthesis and respiration',)
+(214,'The lack of weathering reduces the availability of the minerals.',)
+(214,'The nutrients are being utilized by the plant life.',)
+(214,'The forest floor does not get enough sunlight.',)
+(214,'The animals eat the nutrients.',)
+(215,'food',)
+(215,'mates',)
+(215,'nests',)
+(215,'oxygen',)
+(216,'autotroph',)
+(216,'heterotroph',)
+(216,'carnivore',)
+(216,'omnivore',)
+(217,'1',)
+(217,'2',)
+(217,'3',)
+(217,'4',)
+(218,'plants and animals invading an abandoned crop field',)
+(218,'mangroves stabilizing the soils on tropical coasts',)
+(218,'minerals spurring rapid plant growth',)
+(218,'lichen growth on rocks',)
+(219,'',)
+(219,'',)
+(219,'',)
+(219,'',)
+(220,'A',)
+(220,'B',)
+(220,'C',)
+(220,'D',)
+(221,'Trilobites now live underground',)
+(221,'Trilobites are the ancestors of jellyfish',)
+(221,'Cincinnati was once covered by the ocean where trilobites lived',)
+(221,'The environment changed, creating small saltwater lakes in Cincinnati',)
+(222,'Fossils found in upper layers of a rock section are generally older than those below it',)
+(222,'Fossils are an indicator of ancient environmental conditions',)
+(222,'Absolute ages of fossils are determined by using carbon dating technology',)
+(222,'Marine organisms with hard body parts rarely become fossils',)
+(223,'by examining fossil records',)
+(223,'by learning about natural selection',)
+(223,'by studying deposition of sediments',)
+(223,'by observing different types of rock formations',)
+(224,'increased competition for resources',)
+(224,'falling sea levels and global cooling',)
+(224,'organisms with beneficial traits',)
+(224,'increased solar activity',)
+(225,'a freshwater lake in the mountains',)
+(225,'marine fossils in a freshwater lake',)
+(225,'saltwater clams in the ocean',)
+(225,'a sandy beach next to the ocean',)
+(226,'Organism remains were deposited in an area of open space',)
+(226,'Organism remains were covered by lava flow',)
+(226,'Organism remains were buried with little oxygen',)
+(226,'Organism remains were buried in an area where a lot of erosion occurred',)
+(227,'to become better hunters',)
+(227,'in order to re­populate the Earth',)
+(227,'in response to an altering environment',)
+(227,'to become useful for humans',)
+(228,'Over time, the fish grew considerably in size',)
+(228,'Over time, the fish occupied different ecological niches',)
+(228,'Over time, the fish changed from living in saltwater to living in freshwater',)
+(228,'Over time, the fish changed from a primary consumer to a secondary consumer.',)
+(229,'examining the number of plants in a given area',)
+(229,'examining the type of animals that eat the plant',)
+(229,'examining the type of seeds the plant produces',)
+(229,'examining the fossil record of the plant',)
+(230,'Marine species change faster than freshwater species',)
+(230,'The fossil record provides evidence that species can change over time',)
+(230,'Invertebrates become fossilized more readily than other types of organisms',)
+(230,'Any change to the living conditions of an organism will cause its extinction',)
+(231,'gradual climate change',)
+(231,'continued climate stability',)
+(231,'sudden global climate change',)
+(231,'gradual ecosystem succession',)
+(232,'encountering strong competition',)
+(232,'having a long life span',)
+(232,'producing identical offspring',)
+(232,'having a diverse gene pool',)
+(233,'There was more humidity in the air',)
+(233,'There were fewer nutrients in the soil',)
+(233,'There was more snowfall in the region',)
+(233,'There was less solar radiation in the region',)
+(234,'Changes to each animal were harmful and caused their extinction',)
+(234,'Traits each animal acquired during its lifetime were passed on to the next generation',)
+(234,'Cold temperatures during the Ice Age caused the animals to grow larger with each generation',)
+(234,'Genes for beneficial traits were passed on, resulting in animals more fit for their environment',)
+(235,'',)
+(235,'',)
+(235,'',)
+(235,'',)
+(236,'height of the dinosaur',)
+(236,'type of food the dinosaur ate',)
+(236,'length of the dinosaur',)
+(236,'skin color of the dinosaur',)
+(237,'The birds migrated to the island with the right food supply for their beaks',)
+(237,'The food supply on the islands changed to match the birds’ beaks',)
+(237,'The predators on the islands eliminated the birds with the “wrong” beaks',)
+(237,'The birds with the “right” beaks for the food supply had more young',)
+(238,'the organisms that lived together during this time period',)
+(238,'the length of time a species lived before becoming extinct',)
+(238,'the development of a plant over time based on the fossil remains',)
+(238,'the change in the climate of Earth from one time period to another',)
+(239,'Slow changes allow time for adaptation',)
+(239,'Rapid changes require little adaptation',)
+(239,'Slow changes affect only small regions',)
+(239,'Rapid changes have a global effect',)
+(240,'camouflage',)
+(240,'protection',)
+(240,'hunting',)
+(240,'digging',)
+(241,'volcanic deposits',)
+(241,'weather forecasts',)
+(241,'fossil records',)
+(241,'ocean currents',)
+(242,'changing environments.',)
+(242,'volcanic activity.',)
+(242,'changing rates of erosion.',)
+(242,'evaporation of sea water.',)
+(243,'different soil layers',)
+(243,'fossils of marine organisms',)
+(243,'bones of small animals',)
+(243,'evidence of sandstone formation',)
+(244,'The penguins had different feeding styles.',)
+(244,'The penguins had adapted to similar climates.',)
+(244,'The fossil penguin had better nocturnal vision than the modern penguin.',)
+(244,'The modern penguin had more advanced social groups than the fossil penguin.',)
+(245,'The bird lived for a very short time.',)
+(245,'The bird lived in a dry environment.',)
+(245,'The bird existed at one time but is now extinct.',)
+(245,'The bird was not well preserved during the process of fossilization.',)
+(246,'fossils',)
+(246,'soil type',)
+(246,'environment',)
+(246,'plate tectonics',)
+(247,'while Earth’s continents were joined',)
+(247,'while Earth’s habitats were stable',)
+(247,'before major climatic changes',)
+(247,'following mass extinctions',)
+(248,'similarities in bone structure',)
+(248,'seasonal shifts in food supply',)
+(248,'consumption of the same plant species',)
+(248,'tree rings indicating the return of a similar climate',)
+(249,'birds with long, probing beaks',)
+(249,'birds with thick, strong beaks',)
+(249,'birds with thin, short beaks',)
+(249,'birds with large, pouch beaks',)
+(250,'They have gained additional toes.',)
+(250,'The bones have become stronger.',)
+(250,'The toes have reduced in number.',)
+(250,'The bones have become shorter.',)
+=======
+(140,'housefly',),
+(140,'frog',),
+(140,'hawk',),
+(141,'',),
+(141,'',),
+(141,'',),
+(141,'',),
+(142,'producer',),
+(142,'herbivore',),
+(142,'carnivore',),
+(142,'omnivore',),
+(143,'',),
+(143,'',),
+(143,'',),
+(143,'',),
+(144,'fish',),
+(144,'light',),
+(144,'rocks',),
+(144,'water',),
+(145,'leaves',),
+(145,'moisture',),
+(145,'vegetables',),
+(145,'microorganisms',),
+(146,'',),
+(146,'',),
+(146,'',),
+(146,'',),
+(147,'a hawk eating a mouse',),
+(147,'worms tunneling through soil',),
+(147,'bacteria feeding on dead plants',),
+(147,'a plant using nitrogen to make proteins',),
+(148,'fertilizer.',),
+(148,'light.',),
+(148,'nutrients.',),
+(148,'water.',),
+(149,'the grasshoppers do not have enough to eat.',),
+(149,'the snakes stop eating the grasshoppers.',),
+(149,'the number of birds increase.',),
+(149,'the birds stop eating the spiders.',),
+(150,'the soil',),
+(150,'the deer',),
+(150,'the trees',),
+(150,'the fungi',),
+(151,'starfish',),
+(151,'seaweed',),
+(151,'salt water',),
+(151,'coral reef',),
+(152,'grasshopper, snail, smelt',),
+(152,'mouse, sparrow, duck',),
+(152,'heron, hawk, shrew',),
+(152,'smelt, sparrow, shrew',),
+(153,' Do algae consume other organisms?',),
+(153,'Which organisms consume algae?',),
+(153,'Do algae use sunlight to make food?',),
+(153,'Could an ecosystem survive without algae?',),
+(154,'carbon dioxide',),
+(154,'hydrogen',),
+(154,'nitrogen',),
+(154,'oxygen',),
+(155,'wheat',),
+(155,'mouse',),
+(155,'snake',),
+(155,'owl',),
+(156,'The horned owl population will consume more field mice',),
+(156,'Horned owls will follow the field mice to a different area',),
+(156,'The horned owl population will increase in the area',),
+(156,'Horned owls will change to a plant­based diet',),
+(157,'carbon dioxide',),
+(157,'hydrogen',),
+(157,'nitrogen',),
+(157,'oxygen',),
+(158,'meiosis',),
+(158,'mitosis',),
+(158,'reproduction',),
+(158,'photosynthesis',),
+(159,'consumer to producer',),
+(159,'producer to consumer',),
+(159,'decomposer to producer',),
+(159,'decomposer to consumer',),
+(160,'A new species that eats frogs enters the ecosystem',),
+(160,'The population of small rodents in the ecosystem decreased',),
+(160,'The kinds of insects that salamanders eat increase in number',),
+(160,'A kind of animal that eats the snake species increases in number',),
+(161,'Hurricanes cause the mixing of salt and fresh water',),
+(161,'Hurricanes flush out the marshes and estuaries of coastal ecosystems',),
+(161,'Hurricanes break apart coral reefs which start up additional colonies',),
+(161,'Hurricanes cause the cycles of succession to start again in an ecosystem',),
+(162,'carnivore',),
+(162,'herbivore',),
+(162,'omnivore',),
+(162,'decomposer',),
+(163,'heat',),
+(163,'oxygen',),
+(163,'protein',),
+(163,'water',),
+(164,'growth of bacteria',),
+(164,'release of energy',),
+(164,'activity of enzymes',),
+(164,'production of oxygen',),
+(165,'dragonfly',),
+(165,'trout',),
+(165,'water',),
+(165,'frog',),
+(166,'a decrease in the availability of food',),
+(166,'a decrease in populations of predators',),
+(166,'an increase in suitable nesting locations',),
+(166,'an increase in places to hide from danger',),
+(167,'reduces the risk of fire',),
+(167,'decreases erosion problems',),
+(167,'increases the risk of drought',),
+(167,'removes available nutrients',),
+(168,'Most of the plants in marshes and swamps are trees',),
+(168,'Most of the plants in marshes and swamps are grasses',),
+(168,'Most of the plants in marshes are trees. Most of the plants in swamps are grasses',),
+(168,'Most of the plants in marshes are grasses. Most of the plants in swamps are trees',),
+(169,'oceanic zone',),
+(169,'benthic zone',),
+(169,'neritic zone',),
+(169,'intertidal zone',),
+(170,'More predators were introduced into the lake',),
+(170,'Water was depleted of nutrients such as nitrogen',),
+(170,'Breeding season for the organisms came to an end',),
+(170,'Decomposing algae lowered the amount of dissolved oxygen',),
+(171,'The prey will decrease in numbers',),
+(171,'The predator will increase in numbers',),
+(171,'The prey will be unaffected',),
+(171,'The predator will be unaffected',),
+(172,'tundra',),
+(172,'taiga',),
+(172,'grassland',),
+(172,'desert',),
+(173,'increase in the reproduction rate',),
+(173,'decrease in the number of alligator deaths',),
+(173,'increase in aggression between individuals',),
+(173,'decrease in the number of alligators migrating',),
+(174,'salinity',),
+(174,'sunlight',),
+(174,'wave action',),
+(174,'precipitation',),
+(175,'desert',),
+(175,'forest',),
+(175,'grassland',),
+(175,'tundra',),
+(176,'Birds will compete for water.',),
+(176,'Amphibious snakes will compete for space.',),
+(176,'Flying insects will have to find new sources of food.',),
+(176,'Ground­dwelling rodents will have to find new shelter',),
+(177,'Fungi → Bacteria → Salamanders → Guano',),
+(177,'Bats → Guano → Flatworms → Salamanders',),
+(177,'Salamanders → Fungi → Bacteria → Flatworms',),
+(177,'Guano → Bacteria → Flatworms → Salamanders',),
+(178,'',),
+(178,'',),
+(178,'',),
+(178,'',),
+(179,'mass extinction.',),
+(179,'global warming.',),
+(179,'gene dominance.',),
+(179,'natural selection.',),
+(180,'Plants convert light energy from the sun into the chemical energy necessary to make the sugars.',),
+(180,'Plants absorb heat energy from the sun and soil for the energy necessary to make the sugars.',),
+(180,'Plants absorb chemicals through their roots for the energy necessary to make the sugars.',),
+(180,'Plants convert mechanical energy into chemical energy to make the sugars.',),
+(181,'Abiotic factors can influence energy flow in an ecosystem.',),
+(181,'Biotic interactions control the movement of nutrients in the ocean.',),
+(181,'Abiotic parts of an environment make up parts of marine food webs.',),
+(181,'Biotic interactions are causing an increase in food sources for marine life.',),
+(182,'eating plants and seeds',),
+(182,'eating other animals',),
+(182,'breaking down organisms through decay',),
+(182,'using the sun to make food',),
+(183,'grasshopper.',),
+(183,'grass.',),
+(183,'fox.',),
+(183,'falcon.',),
+(184,'small shrubs',),
+(184,'mature oaks',),
+(184,'evergreens',),
+(184,'wildflowers',),
+(185,'photosynthesis',),
+(185,'regeneration',),
+(185,'respiration',),
+(185,'transpiration',),
+(186,'decrease the temperature of the factory water',),
+(186,'increase the temperature of the river water',),
+(186,'remove the vegetation from the river',),
+(186,'add more fish to the river',),
+(187,'oxygen',),
+(187,'carbon dioxide',),
+(187,'iron sulfide',),
+(187,'glucose',),
+(188,'',),
+(188,'',),
+(188,'',),
+(188,'',),
+(189,'',),
+(189,'',),
+(189,'',),
+(189,'',),
+(190,'',),
+(190,'',),
+(190,'',),
+(190,'',),
+(191,'',),
+(191,'',),
+(191,'',),
+(191,'',),
+(192,'',),
+(192,'',),
+(192,'',),
+(192,'',),
+(193,'',),
+(193,'',),
+(193,'',),
+(193,'',),
+(194,'',),
+(194,'',),
+(194,'',),
+(194,'',),
+(195,'',),
+(195,'',),
+(195,'',),
+(195,'',),
+(196,'',),
+(196,'',),
+(196,'',),
+(196,'',),
+(197,'',),
+(197,'',),
+(197,'',),
+(197,'',),
+(198,'',),
+(198,'',),
+(198,'',),
+(198,'',),
+(199,'',),
+(199,'',),
+(199,'',),
+(199,'',),
+(200,'',),
+(200,'',),
+(200,'',),
+(200,'',),
+(201,'',),
+(201,'',),
+(201,'',),
+(201,'',),
+(202,'',),
+(202,'',),
+(202,'',),
+(202,'',),
+(203,'',),
+(203,'',),
+(203,'',),
+(203,'',),
+(204,'',),
+(204,'',),
+(204,'',),
+(204,'',),
+(205,'',),
+(205,'',),
+(205,'',),
+(205,'',),
+(206,'',),
+(206,'',),
+(206,'',),
+(206,'',),
+(207,'',),
+(207,'',),
+(207,'',),
+(207,'',),
+(208,'',),
+(208,'',),
+(208,'',),
+(208,'',),
+(209,'',),
+(209,'',),
+(209,'',),
+(209,'',),
+(210,'',),
+(210,'',),
+(210,'',),
+(210,'',),
+(211,'',),
+(211,'',),
+(211,'',),
+(211,'',),
+(212,'',),
+(212,'',),
+(212,'',),
+(212,'',),
+(213,'',),
+(213,'',),
+(213,'',),
+(213,'',),
+(214,'',),
+(214,'',),
+(214,'',),
+(214,'',),
+(215,'',),
+(215,'',),
+(215,'',),
+(215,'',),
+(216,'',),
+(216,'',),
+(216,'',),
+(216,'',),
+(217,'',),
+(217,'',),
+(217,'',),
+(217,'',),
+(218,'',),
+(218,'',),
+(218,'',),
+(218,'',),
+(219,'',),
+(219,'',),
+(219,'',),
+(219,'',),
+(220,'',),
+(220,'',),
+(220,'',),
+(220,'',),
+(221,'',),
+(221,'',),
+(221,'',),
+(221,'',),
+(222,'',),
+(222,'',),
+(222,'',),
+(222,'',),
+(223,'',),
+(223,'',),
+(223,'',),
+(223,'',),
+(224,'',),
+(224,'',),
+(224,'',),
+(224,'',),
+(225,'',),
+(225,'',),
+(225,'',),
+(225,'',),
+(226,'',),
+(226,'',),
+(226,'',),
+(226,'',),
+(227,'',),
+(227,'',),
+(227,'',),
+(227,'',),
+(228,'',),
+(228,'',),
+(228,'',),
+(228,'',),
+(229,'',),
+(229,'',),
+(229,'',),
+(229,'',),
+(230,'',),
+(230,'',),
+(230,'',),
+(230,'',),
+(231,'',),
+(231,'',),
+(231,'',),
+(231,'',),
+(232,'',),
+(232,'',),
+(232,'',),
+(232,'',),
+(233,'',),
+(233,'',),
+(233,'',),
+(233,'',),
+(234,'',),
+(234,'',),
+(234,'',),
+(234,'',),
+(235,'',),
+(235,'',),
+(235,'',),
+(235,'',),
+(236,'',),
+(236,'',),
+(236,'',),
+(236,'',),
+(237,'',),
+(237,'',),
+(237,'',),
+(237,'',),
+(238,'',),
+(238,'',),
+(238,'',),
+(238,'',),
+(239,'',),
+(239,'',),
+(239,'',),
+(239,'',),
+(240,'',),
+(240,'',),
+(240,'',),
+(240,'',),
+(241,'',),
+(241,'',),
+(241,'',),
+(241,'',),
+(242,'',),
+(242,'',),
+(242,'',),
+(242,'',),
+(243,'',),
+(243,'',),
+(243,'',),
+(243,'',),
+(244,'',),
+(244,'',),
+(244,'',),
+(244,'',),
+(245,'',),
+(245,'',),
+(245,'',),
+(245,'',),
+(246,'',),
+(246,'',),
+(246,'',),
+(246,'',),
+(247,'',),
+(247,'',),
+(247,'',),
+(247,'',),
+(248,'',),
+(248,'',),
+(248,'',),
+(248,'',),
+(249,'',),
+(249,'',),
+(249,'',),
+(249,'',),
+(250,'',),
+(250,'',),
+(250,'',),
+(250,'',)
+>>>>>>> e578b29549769eab6e728e6345ece35ecd15f88f

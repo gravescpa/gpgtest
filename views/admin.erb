@@ -1,0 +1,68 @@
+<center>
+<script type="text/javascript">
+<!--
+
+
+function get_password() {
+  var orig_pass = prompt("Please enter password","");
+  if (orig_pass!=null && orig_pass!="")
+  var password = new Array(orig_pass.length);
+  for(i=0; i<orig_pass.length; i++) {
+    password[i] = orig_pass.charCodeAt(i);
+  }
+  return password;
+}
+
+function zubrag_decode() {
+var password = get_password();
+var orig = unescape("".concat('t%20%3Dn%22%3Ecd%3Cge%20%20tma%20m%20nge%22tmvime%3C%3Dmt%22epmowen%20o%20ncdt%20%22tw%3Dic%20dse%3Dthtwfi-ti8imn%20al%20-esl%22%3Ea1p.%3D%20%20em%3D%20m%20nXeCtmdemeb%3Dmtiernicone%22I%20n%22%22%3Dnl',
+'te%20%20mm%22mma%20%3Cmme%3C%22aamdea%22%20ehmotnt%20n%3Ctommt%22h%3E%22%20%20hm%22%20me%3Eei%3Ettme%2Co%20gieraahfrleetui/%20%20mmUmmk%20%3Clai%3C%22paehfr/cslnibylo/%3Ess%22%20tchs.st%3Elm%3Deee%20e',
+'%20slm%20n%3Eam%22adu/eh%3C%20%3Ccm-mmmm%3Dd%20yom%3Cm%20tm%20od%3C--%20-kgBb%22a%20%3D%22cuonobg%3Cilna%20-%3Eptgj%20%20%20mEm%3E-%20h%3C%20%21%20%20nuxeei%20-sb%20avmmem%3Em%3Ev%20r%3Cmd%09eay%3Dm%2',
+'2dmmtra%22eiv%20%09u%3C%09s%3D%3Elmacaibo%3Cncmmmrt%22edi%21%09i%09%09ssycAl%20%22%3Errto%22%09%09mml%09mcl.invdco-s%20%3Ds6%22%20lmg-%09%09Fmmmmnta%3Cec%091%3E-%3Er%3CrmemotgieriamfrniddmmAivmrtate%3',
+'C%20Pva%20mm%221-%3Eh%3C/n%09i%09%09r%3Emnote%09%09vm%22m%09iv%3D%3Ce/%09m%20m%20%20m%20iv%3C%20a%3C%20head%22%3Di-blirndru%3Eatdemm%09si%22b%20%20e%20v%20%20%20mB%20d%20%20%20%3Cc%20i%20mmm%20icvd%3C',
+'hs%200%20%20%20%20em%20m%3E%3Em/%3Cah%20%20%20%09m%22mm%20%3Cc%20p%20%20%3E%3C%09%3Cch%3Ent%09%3C%3Dc%3Eic%3E%3E%20Crow%20bte%20xp%20o%3D%20tatatr%20r%3C/r/eb%3C%3Emm%3Cm/%3E%20%20m%20%20%20miv%20%20l',
+'%3C%20s%3Dmlaacon/uttbaimotncmm6r%20%22e%20%20%20%20n%20%20%20%3Cm%20%3D%20%20me%20rcmo%3D%20potdh%22%20bosspn%20et%22icrek%22h/%20ex%20smte%3Emoreto%20%20a%20%20%20m%20%20h%20%3E%20%20%20%3Cm%20m%20%',
+'20n%20%20tbtu%22s%20pcey1%22%22mdibs%3D-l-acinno%22ncttm_mbei%20%20%22-%20n%3D%22fadsl-ut%20rfad%22%22rm-e%20Pa/ii%3Cst%3D-hTerttx%3EpEttp/db%3Cfom%3Es%3Cnm%20%20%3Etmm%20%20%20%20%3E%20%20%20%20b%20%',
+'3C%20%20%20%20t%20a%20%20%20%20u%20w%20%20m%20%20%20%09m%20%20%20%22%20%20%20%20fou%20%22%20%20tho%20-mm%22pc%20%09%3Ddacfte%22s%3D%20sohnitt%3Epao/xprtt_smm%20ti%22r%20%20%20%20t%20%20%20%20o%20g%20%',
+'20%3Cbr%20m%20%20%20t%20t%09otsu%20ee%3Dp%22%20%20imtm%3D%22%20adslnu%20nmtoto%20bdu_%20c%20%20%22%3C%22%22frsgsausofca%20%22%3Eo-%3EmrPoti%20%3E/st%22-%20Ttrtex%20pEtto/%3Eb%3Cfom%3E%20%3Cnmm%20%3Emm',
+'m%20%20%20%20r%20m%20%20u%20m%20%20%20myo%20rf%20%3Dbh2ott%22cpeo%22onccltacoe%20l%22%3D_rnaerps%22ludls%20%20am%3Emm%20%20e%20p%20%20%20%20%3C%20%20%20%20tosbdu%3Ce%3D%20tsy%20it%20utbsaso%20tc%22ntr',
+'%22%3Ec%3Dbumu%20en%20%3C%20o%20ntss%3Cc%20l%20faef%20a%22-m%20steui%3E%20%3Eo%3C%22ar%20opmC/PmP_r%20eset%22%20sbu%3E%20%20%3Cs%3C/%20o%20ntr%3E%20n%20tem%3E%20foo/%20%20nm%3D%20m/d%22%20t%20%20m%201',
+'%3Esmv%20%20s%20t%20%20mmihur/%20%20t%20%3C%20%206%3Ei%3Cs/%20%20%20%3Dma%20m/d-%20m%20%20did%3E%3E%3Cviv%20%3Ce/%3Ev%3Ee/od%3C%3E%3Codui/mmti/vd%20%20t%20m%20%20nlc%20%20m%20%22o%3C%20%20%20c1_%3C%20',
+'%20i%3Ds%22mmm%20%22ia%20%20d%3C%20t%20%3E%3Csm%20ir%20ei%20q%3D/h%20/m--p%20%20e%20pde%3C%20ti%22%20T/s%20vme/de%20%3E%3Do%3Ei%3E%20%3Cmuev%20t/a/r%3E%20pm%20m%20%20%20m%20'));
+orig = orig.split("");
+
+var passnum = orig.length % password.length;
+for(i=orig.length-1; i>=0; i--) {
+
+  passnum--;
+  if (passnum == -1) passnum = password.length - 1;
+  
+  var pos1 = i;
+  var pos2 = i + password[passnum];
+
+  if (pos2 >= orig.length) continue;
+
+  char1 = orig[pos1];
+  char2 = orig[pos2];
+
+  orig[pos2] = char1;
+  orig[pos1] = char2;
+
+}
+
+var orig1 = "";
+for(i=0;i<orig.length;i++) {
+  orig1 = orig1 + orig[i];
+}
+orig1 = orig1.replace(/mmm/g,"\r\n");
+
+document.getElementById("zubrag-block1").innerHTML = orig1;
+}
+
+//-->
+
+</script>
+<noscript>JavaScript must be enabled in your browser in order to view the protected page.</noscript>
+<div id="zubrag-block1"><input type="button" value="Click to Access Adminitrative Settings" onclick="zubrag_decode();"/></div
+
+</center>

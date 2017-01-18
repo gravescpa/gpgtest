@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Siimple - Free Bootstrap 3 Landing Page</title>
+
+    <!-- Bootstrap -->
+    <link href="public/css/bootstrap.css" rel="stylesheet">
+	<link href="public/css/bootstrap-theme.css" rel="stylesheet">
+
+    <!-- siimple style -->
+    <link href="public/css/style.css" rel="stylesheet">
+    
+    <!-- =======================================================
+        Theme Name: Siimple
+        Theme URL: https://bootstrapmade.com/free-bootstrap-landing-page/
+        Author: BootstrapMade
+        Author URL: https://bootstrapmade.com
+    ======================================================= -->
+  </head>
+  <body>
+<!-- body background="main-bg.jpg" -->
+    <!-- Fixed navbar -->
+
+	<div id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<center><h1>Play Biogamecrafter Here!</h1>
+					<h2 class="subtitle">Making learning fun</h2></center>		
+				</div> 
+ 
+ <div id="heading-breadcrumbs">
+            
+        </div>
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="box">
+                           
+
+                            <%#<p class="lead">Not our registered user yet?</p>%>
+                            
+
+                            <hr>
+<p>
+<form method = "post" action = "post_test">
+<center>
+    <b>Biogamecrafter Post-Test</b><br />
+    <b></b>
+</p>
+<p><center>Thank you <%= full_name %>, please answer the following questions.</center></p>
+<input type="hidden" name = "full_name" value = "<%= full_name %>">
+<input type="hidden" name = "student_id" value = "<%= student_id %>">
+<input type="hidden" name = "questions_answers" value = "<%= questions_answers %>">
+<div align = "left">
+<p>
+
+<% question = ""%>
+<% count = 1%>
+    <% questions_answers.each do |question_answer| %>
+        <% if question_answer['active'] = true %>
+        <% if question != question_answer['question_text'] %>
+            <br>
+            <%=count%>. <%= question_answer['question_text']%>
+                <% if question_answer['image']%>
+                
+                    <% image_path = "img/" + question_answer['image']%> 
+                    <center><img class= "center" src=<%= image_path %>></center>
+                <% end %>
+            <br>
+            <% question = question_answer['question_text']%>
+            <% count += 1%>
+            <% end %>
+    <input type='radio' class='radio' style='width:2rem; height:2rem;'id="<%=question_answer['question_id'] + "_" + question_answer['answer_id'] %>" required name="answers[<%=question_answer['question_id'] %>]" value="<%=question_answer['answer_id'] %>"> <%=question_answer["answer_text"] %><br>
+    <%end%>
+    
+    <% end %>
+    
+                                                <center>
+					<p> What did you think of the test?  Was it easy or hard?</p> 
+                    <p> (Click in the box and start typing)</p></center>		
+
+<div><center><textarea name="post_test_text" rows=5 cols=50% wrap="soft"value= "post_test_text" >
+
+</textarea>
+
+
+   <center> 
+   <div class="button">
+   <button type="submit1" class="continue_button"><i class="fa fa-user-md"></i> Submit </button></div>
+
+                                </div></center>
+
+	
+</div>
+	
+	
+<br>
+</form>
